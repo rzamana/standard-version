@@ -30,5 +30,12 @@
   "require-dev": {
     "escapestudios/symfony2-coding-standard": "3.x-dev",
     "squizlabs/php_codesniffer": "3.*"
-  }
+  },
+  "scripts": {
+        "cs-check": "phpcs -s --report=summary .",
+        "cs-fix": "phpcbf .",
+        "test": [
+            "@cs-check"
+        ]
+    }
 }
