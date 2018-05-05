@@ -12,9 +12,13 @@
  * PHP Version 7
  *
  * @category Principal
+ * 
  * @package  StandardVersion
+ * 
  * @author   Rafael Z. Kineippe <rafael@zamana.com.br>
+ * 
  * @license  https://opensource.org/licenses/ISC ISC
+ * 
  * @link     https://github.com/rzamana/standard-version
  */
 

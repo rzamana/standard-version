@@ -45,8 +45,8 @@ class StandardVersion extends Command
      *
      * Undocumented function long description
      *
-     * @param InputInterface  $input
-     * @param OutputInterface $output
+     * @param InputInterface  $input  the interface implemented by all input classes
+     * @param OutputInterface $output the interface implemented by all Output classes
      **/
     protected function execute(InputInterface $input, OutputInterface $output)
     {
