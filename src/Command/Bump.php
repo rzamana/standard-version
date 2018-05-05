@@ -47,9 +47,9 @@ class Bump extends Command
     }
 
     /**
-     * undocumented function summary
+     * StandardVersion:Bump Execution
      *
-     * Undocumented function long description
+     * Console execution of the bump version
      *
      * @param InputInterface  $input  the interface implemented by all input classes
      * @param OutputInterface $output the interface implemented by all Output classes
