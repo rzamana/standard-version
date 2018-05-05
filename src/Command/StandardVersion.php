@@ -8,9 +8,13 @@
  * PHP Version 7
  *
  * @category Principal
+ *
  * @package  StandardVersion
+ *
  * @author   Rafael Z. Kineippe <rafael@zamana.com.br>
+ *
  * @license  https://opensource.org/licenses/ISC ISC
+ *
  * @link     https://github.com/rzamana/standard-version
  */
 
@@ -27,11 +31,24 @@ use Symfony\Component\Console\Output\OutputInterface;
  */
 class StandardVersion extends Command
 {
-    protected function configure() 
+    /**
+     * StandardVersion Configuration
+     *
+     * Configuration Method to register on Symfony Console
+     **/
+    protected function configure()
     {
     }
 
-    protected function execute( InputInterface $input, OutputInterface $output ) 
+    /**
+     * undocumented function summary
+     *
+     * Undocumented function long description
+     *
+     * @param InputInterface  $input
+     * @param OutputInterface $output
+     **/
+    protected function execute(InputInterface $input, OutputInterface $output)
     {
     }
 }
