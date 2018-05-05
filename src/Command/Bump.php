@@ -18,9 +18,10 @@
  * @link     https://github.com/rzamana/standard-version
  */
 
-namespace App\Command;
+namespace StandardVersion\Command;
 
 use Symfony\Component\Console\Command\Command;
+use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
@@ -29,17 +30,17 @@ use Symfony\Component\Console\Output\OutputInterface;
  *
  * Register the basic command line operations that we want!
  */
-class StandardVersion extends Command
+class Bump extends Command
 {
     /**
-     * StandardVersion Configuration
+     * StandardVersion:Bump Configuration
      *
      * Configuration Method to register on Symfony Console
      **/
     protected function configure()
     {
         $this
-            ->setName('standard-version:bump')
+            ->setName('bump')
             ->setDescription('Bump composer.json version.')
             ->setHelp('This command allows you to easily bump your composer.json version.')
     ;
@@ -55,5 +56,7 @@ class StandardVersion extends Command
      **/
     protected function execute(InputInterface $input, OutputInterface $output)
     {
+        $io = new SymfonyStyle($input, $output);
+        $io->title('[Standard Version] Bump');
     }
 }

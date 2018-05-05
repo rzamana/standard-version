@@ -23,12 +23,16 @@
  * @link     https://github.com/rzamana/standard-version
  */
 
+namespace StandardVersion;
+
 /**
  * Including the autoload
  */
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
+use StandardVersion\Command\Bump;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
+$application->add(new Bump());
 $application->run();
