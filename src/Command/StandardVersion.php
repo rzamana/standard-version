@@ -38,6 +38,11 @@ class StandardVersion extends Command
      **/
     protected function configure()
     {
+        $this
+            ->setName('standard-version:bump')
+            ->setDescription('Bump composer.json version.')
+            ->setHelp('This command allows you to easily bump your composer.json version.')
+    ;
     }
 
     /**
