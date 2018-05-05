@@ -1,0 +1,29 @@
+{
+  "name": "rzamana/standard-version",
+  "description": "Library that helps with generating CHANGELOG.md and versioning",
+  "homepage": "https://github.com/rzamana/standard-version",
+  "license": "ISC",
+  "authors": [
+      {
+          "name": "Rafael Z. Kineippe",
+          "email": "rafael@zamana.com.br",
+          "role": "lead"
+      }
+  ],
+  "support": {
+      "issues": "https://github.com/rzamana/standard-version/issues"
+  },
+  "require": {
+      "php": "^7.0"
+  },
+  "autoload": {
+      "classmap": [
+          "src/"
+      ]
+  },
+  "extra": {
+      "branch-alias": {
+          "dev-master": "0.1-dev"
+      }
+  }
+}
