@@ -1,5 +1,7 @@
 # Standard Version
 
+[![Build Status](https://travis-ci.org/rzamana/standard-version.svg?branch=master)](https://travis-ci.org/rzamana/standard-version)
+
 This is a PHP composer library fork based on the npm [standard-version](https://github.com/conventional-changelog/standard-version)!
 
 Automatic versioning and CHANGELOG generation, using GitHub's squash button and
